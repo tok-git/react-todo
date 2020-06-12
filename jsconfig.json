@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "/*": [
+        "src/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "containers/*": [
+        "src/containers/*"
+      ],
+      "libs/*": [
+        "src/libs/*"
+      ],
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "styles/*": [
+        "src/styles/*"
+      ],
+      "redux/*": [
+        "src/redux/*"
+      ],
+      "services/*": [
+        "src/services/*"
+      ],
+      "actions/*": [
+        "src/redux/actions/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
